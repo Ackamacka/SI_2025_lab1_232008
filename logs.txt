@@ -1,0 +1,23 @@
+//POGRESHKA FETCH MESTO PULL NAPRAVIV I MORAV DA IZGASAM GIT BASH, ZATOA SAMO OD TUKA SE LOGSOT
+$ git log --oneline --graph --all
+* 903a46c (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://gi
+thub.com/Ackamacka/SI_2025_lab1_232008 This is a commit message, i need to merge i
+*   ac873c4 Merge branch 'master' of https://github.com/Ackamacka/SI_2025_lab1_232008
+|\
+| *   8c2b74c Merge pull request #12 from Ackamacka/5-filter-tasks-by-category
+| |\
+| | * 1f2ebb0 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Initiate fil
+terTasksByCategory
+| * |   d4b0ac5 Merge pull request #10 from Ackamacka/1-remove-a-task-by-name
+| |\ \
+| | |/
+| |/|
+| | * dbd1b5a (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeTa
+sk
+| |/
+* / 7c4de46 (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) Implement Li
+st tasks sorted by name
+|/
+* 351c783 (origin/4-sort-tasks-by-priority, origin/2-find-all-completed-tasks) Add starter
+ code
+* f2074de Initial commit
