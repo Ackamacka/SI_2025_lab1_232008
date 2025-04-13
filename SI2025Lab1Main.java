@@ -64,7 +64,7 @@ class TaskManager {
 
      1. Remove a task by name
     public void removeTask(String name) {
-        // TODO: Implement removal logic
+        tasks.removeIf(task->task.getName().equalsIgnoreCase(name));
     }
 
     // 2. Find all completed tasks
@@ -83,10 +83,15 @@ class TaskManager {
         // TODO: Implement sorting by priority logic
     }
 
-    // 5. Filter tasks by category
+     5. Filter tasks by category
     public List<Task> filterByCategory(String category) {
-        // TODO: Implement filtering logic
-        return new ArrayList<>();
+        List<Task> filtered=new ArrayList<>();
+        for(Task task : tasks){
+          if(task.getCategory().equalsIgnoreCase(category)){
+           filtered.add(task);
+}
+}
+        return filtered;
     }
 
     // 6. Find the highest-priority unfinished task
